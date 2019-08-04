@@ -1,0 +1,418 @@
+.popupLogo{
+    left: 85%;
+    top: 91px;
+    position: absolute;
+}
+
+.popupTabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.popupTabset{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 12px;
+}
+
+.popupTabset .popupTab-panel {
+    display: none;
+}
+
+.popupTabset > input:first-child:checked ~ .popupTab-panel > .tab-panel:first-child,
+.popupTabset > input:nth-child(3):checked ~ .popupTab-panel > .popupTab-panel:nth-child(2),
+.popupTabset > input:nth-child(5):checked ~ .popupTab-panel > .popupTab-panel:nth-child(3),
+.popupTabset > input:nth-child(7):checked ~ .popupTab-panel > .popupTab-panel:nth-child(4),
+.popupTabset > input:nth-child(9):checked ~ .popupTab-panel > .popupTab-panel:nth-child(5),
+.popupTabset > input:nth-child(11):checked ~ .popupTab-panel > .popupTab-panel:nth-child(6) {
+    display: block;
+}
+
+.popupTabset > label {
+    color: rgb(128, 128, 128);
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px 4px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+}
+
+.popupTabset > label:hover,
+.popupTabset > input:focus + label {
+    color: rgb(238, 130, 8);
+}
+
+.popupTabset > label:hover::after,
+.popupTabset > input:focus + label::after,
+.popupTabset > input:checked + label::after {
+    background: rgb(238, 130, 8);
+}
+
+.popupTabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -3px;
+}
+
+.popupTab-panel {
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+    padding-bottom: 7px;
+}
+
+
+
+
+
+
+.popupTabsetDown > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.popupTabsetDown{
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+}
+
+.label{
+    margin-left: -9px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.imgDiv{
+    text-align: center;
+}
+
+.popupTabsetDown .popupTab-panel {
+    display: none;
+}
+
+.popupTabsetDown > input:first-child:checked ~ .popupTab-panel > .tab-panel:first-child,
+.popupTabsetDown > input:nth-child(3):checked ~ .popupTab-panel > .popupTab-panel:nth-child(2),
+.popupTabsetDown > input:nth-child(5):checked ~ .popupTab-panel > .popupTab-panel:nth-child(3),
+.popupTabsetDown > input:nth-child(7):checked ~ .popupTab-panel > .popupTab-panel:nth-child(4),
+.popupTabsetDown > input:nth-child(9):checked ~ .popupTab-panel > .popupTab-panel:nth-child(5),
+.popupTabsetDown > input:nth-child(11):checked ~ .popupTab-panel > .popupTab-panel:nth-child(6) {
+    display: block;
+}
+
+.popupTabsetDown > label {
+    color: rgb(128, 128, 128);
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px 4px;
+    border: 1px solid transparent;
+    border-top: 0;
+    cursor: pointer;
+}
+
+.popupTabsetDown > label:hover,
+.popupTabsetDown > input:focus + label {
+    color: rgb(238, 130, 8);
+}
+
+.popupTabsetDown > label:hover::after,
+.popupTabsetDown > input:focus + label::after,
+.popupTabsetDown > input:checked + label::after {
+    background: rgb(238, 130, 8);
+}
+
+.popupTabsetDown > input:checked + label {
+    border-color: #ccc;
+    border-top: 2px solid #fff;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+.popupBody{
+    width:600px;
+    height:360px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+}
+
+.popupOtherInfo{
+    white-space: normal;
+    display: inline-block;
+    text-align: right;
+    color:#808080;
+}
+
+.popupTempCdiv{
+    margin-top: 13px;
+    margin-left: 5px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.popupCSignDiv{
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.popupTextLeft{
+    text-align: left;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.valignTop{
+    vertical-align: top;
+}
+
+.popupTempC{
+    color:#4d4d4d;
+    font-size: 33px;
+}
+
+.popupDateTime{
+    color: #4d4d4d;
+    font-size: 13px;
+}
+
+/*div{
+    border:1px dotted grey;
+}*/
+
+.popupArea{
+    color:#56b0fd;
+    font-size: 15px;
+    white-space: normal;
+}
+
+
+#weatherBlock{
+    border-radius: 3px;
+    margin-top: 3px;    
+}
+
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    padding-top: 11px;
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+}
+
+.imgAbs{
+    widht: 64px;
+    height: 64px;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    font: 12px sans-serif;
+    background: #fff; 
+    padding: 0 15px;   
+    margin-left: 58px;
+    cursor: pointer;
+    content: 'Подробно ▽';
+    color:rgb(128, 128, 128);
+}
+
+.read-more-state ~ .read-more-trigger:after {
+    border-top: 1px solid #dfdfdf;
+    content:"";
+    margin: 0 auto; 
+    position: absolute; 
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 220px;
+    z-index: -1;
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+    background: #fff; 
+    padding: 0 15px; 
+    margin-left: 58px;
+    cursor: pointer;
+    content: 'Кратко △';
+}
+
+
+.read-more-trigger {
+    position: relative;
+    z-index: 1;
+}
+
+
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset{
+    width: 220px;
+    margin: 0 auto;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+}
+
+.tabset > label {
+    left: 18%;
+    color: rgb(128, 128, 128);
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px 4px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+    color: rgb(238, 130, 8);
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+    background: rgb(238, 130, 8);
+}
+
+.tabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1.6px;
+}
+
+.tab-panel {
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+    padding-bottom: 7px;
+}
+
+.tabset {
+    max-width: 65em;
+}
+
+
+.rowTempForWholeDay{
+    padding: 5px 0px 5px 0px;
+}
+
+.row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+.rowMargin {
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+
+.rowMargin12 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 12px
+}
+
+.cityR {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    white-space: normal;
+    color: #ee8208;
+    text-align: center;
+    font-size: 16px;
+}
+
+.temp {
+    color: #4d4d4d;
+    font-size: 30px;
+}
+
+.textR{
+    text-align: right;    
+}
+
+.langRu {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 12px;
+    margin-top: 2px;
+    white-space: normal;
+}
+
+.humidity {
+    color: #808080
+}
+
+.hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.minmax {
+    color: #808080;
+}
+
+.tempForDay {
+    font-size: 14px;
+}
+
+.tempIcon {
+    width: 80px;
+}
+
+.tiB {
+    width: 42px;
+}
+
+.fnt10 {
+    font-size: 11px;
+}
+
+.cityRow {
+    margin-top: -3px;
+    margin-bottom: 2px;
+}
+
+.dateTomorrow {
+    font-size: 15px;
+}
+
+.weatherIconRow {
+    margin-bottom: -25px;
+    margin-top: -3px;
+}
+
+.column {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+}

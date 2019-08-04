@@ -1,0 +1,51 @@
+{
+    "extName": {
+        "message": "Meteo report",
+        "description": "Extesnion name"
+    },
+    "extDesc": {
+        "message": "Meteo report provides local & long range weather forecasts for locations worldwide",
+        "description": "Extension description"
+    },
+    "extPopup": {
+        "message": "Weather forecast",
+        "description": "Extension popup"
+    },
+    "wind": {
+        "message": "Wind"
+    },
+    "pressure": {
+        "message": "Pressure"
+    },
+    "humidity": {
+        "message": "Humidity"
+    },
+    "mpers": {
+        "message": "m/s"
+    },
+    "mm": {
+        "message": "mmHg"
+    },
+    "days": {
+        "message": "Sun,Mon,Tue,Wed,Thu,Fri,Sat"
+    },
+    "daysFull": {
+        "message": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday"
+    },
+    "month": {
+        "message": "January,February,March,April,May,June,July,August,September,October,November,December"
+    },
+    "timeLine": {
+        "message": "00:00,03:00,06:00,09:00,12:00,15:00,18:00,21:00"
+    },
+    "temperature": {
+        "message": "Temperature"
+    },
+    "humidity": {
+        "message": "Humidity"
+    },
+    "windspeed": {
+        "message": "Wind speed"
+    }    
+    
+}

@@ -1,0 +1,51 @@
+{
+    "extName": {
+        "message": "Meteo report",
+        "description": "Extesnion name"
+    },
+    "extDesc": {
+        "message": "Текущая погода и подробный прогноз на неделю",
+        "description": "Extension description"
+    },
+    "extPopup": {
+        "message": "Прогноз погоды",
+        "description": "Extension popup"
+    },
+    "wind": {
+        "message": "Ветер"
+    },
+    "pressure": {
+        "message": "Давление"
+    },
+    "humidity": {
+        "message": "Влажность"
+    },
+    "mpers": {
+        "message": "м/с"
+    },
+    "mm": {
+        "message": "мм рт ст"
+    },
+    "timeLine": {
+        "message": "00:00,03:00,06:00,09:00,12:00,15:00,18:00,21:00"
+    },    
+    "days": {
+        "message": "вс,пн,вт,ср,чт,пт,сб"
+    },
+    "daysFull": {
+        "message": "восскресенье,понедельник,вторник,среда,четверг,пятница,суббота"
+    },
+    "month": {
+        "message": "Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь"
+    },
+    "temperature": {
+        "message": "Температура"
+    },
+    "humidity": {
+        "message": "Влажность"
+    },
+    "windspeed": {
+        "message": "Скорость ветра"
+    }       
+    
+}

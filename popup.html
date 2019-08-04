@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="popupBody">
+        <div id="logo" class="popupLogo"></div>
+        <div class="row">
+            <div class="column">
+                <div id="area" class="popupArea popupTextLeft"></div>
+                <div id="dateTime" class="popupDateTime popupTextLeft"></div>
+            </div>
+
+            <div class="column">
+                <div id="weatherIcon" class="inline"></div>
+                <div class="popupTempCdiv">
+                    <div class="inline">
+                        <span id="tempC" class="popupTempC"></span>
+                    </div>
+                    <div class="popupCSignDiv"><span>°C</span></div>
+                </div>
+            </div>
+
+            <div class="column" style="text-align: right;">
+                <div id="otherInfo" class="popupOtherInfo">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="popupTabset">
+                <input type="radio" name="popupTabset" id="tab1" aria-controls="marzen" checked>
+                <label for="tab1" data-id="0" id="tab1Label" class="localize" data-localize="temperature">Temperature</label>
+                <input type="radio" name="popupTabset" id="tab2" aria-controls="rauchbier">
+                <label for="tab2" data-id="1" id="tab2Label" class="localize" data-localize="humidity">Humidity</label>
+                <input type="radio" name="popupTabset" id="tab3" aria-controls="dunkles">
+                <label for="tab3" data-id="2" id="tab3Label" class="localize" data-localize="windspeed">Wind speed</label>
+            </div>
+        </div>
+        
+        <div class="row" style="margin-top:15px">
+          <canvas id="weatherChart" width="400" height="100" data-date="0" data-param="0"></canvas>  
+        </div>
+        
+        <div class="row">
+            <div id="downTabs" class="popupTabsetDown">     
+            </div>
+        </div>        
+
+    <footer>
+        <script src="js/jquery-3.4.0.min.js"></script>
+        <script src="js/Chart.min.js"></script>
+        <script src="js/chartjs-plugin-datalabels.min.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/lang.js"></script>        
+        <script src="js/popup.js"></script>        
+    </footer>    
+    </body>
+</html>
